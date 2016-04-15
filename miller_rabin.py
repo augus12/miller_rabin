@@ -44,7 +44,10 @@ def miller_rabin(n, s):
 	
 	
 def main():
+	print "Enter the no of test cases"
 	t= input()
+	if t>0:
+		print "Enter the numbers"
 	while (t>0):
 		n = input()
 		if n==1:
